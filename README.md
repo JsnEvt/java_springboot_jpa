@@ -28,17 +28,6 @@ Este repositório contém uma aplicação desenvolvida em Java utilizando o fram
 
 A aplicação exemplifica a criação de uma API RESTful com operações CRUD (Create, Read, Update, Delete) utilizando Spring Boot e JPA para persistência de dados. 
 
-## Estrutura do Projeto
-
-### Diretório de Pacotes
-- **com.example.demo**: Pacote raiz da aplicação.
-  - **controllers**: Contém os controladores REST.
-  - **entities**: Contém as entidades JPA.
-  - **repositories**: Contém os repositórios JPA.
-  - **services**: Contém as classes de serviço.
-  - **dto**: Contém os Data Transfer Objects.
-  - **exceptions**: Contém classes para tratamento de exceções.
-
 ### Tecnologias Utilizadas
 - **Java 11**: Linguagem de programação.
 - **Spring Boot 2.5**: Framework para criação de aplicações Java.
@@ -46,6 +35,42 @@ A aplicação exemplifica a criação de uma API RESTful com operações CRUD (C
 - **Maven**: Gerenciamento de dependências.
 - **H2 Database**: Banco de dados em memória para desenvolvimento e testes.
 - **Postman**: Ferramenta para teste de APIs.
+
+  
+## 🧩 Funcionalidades Implementadas
+
+### ✅ CRUD completo sobre entidades
+- Criar (POST)  
+- Ler (GET) — todos ou por ID / filtros simples  
+- Atualizar (PUT / PATCH)  
+- Deletar (DELETE)  
+
+### 🔄 Estrutura em camadas
+- Controllers → Serviços → Repositórios  
+- Separação clara de responsabilidades  
+
+### 🔐 (Opcional) Validações e tratamento de erros  
+- Validações de campos de entrada  
+- Respostas com status HTTP adequados  
+- Mapeamento de exceções para respostas amigáveis  
+
+### 📦 Persistência de dados  
+- Mapeamento de entidades para tabelas via JPA/Hibernate  
+- Integração com banco relacional  
+
+---
+
+## 🎯 Objetivo educacional / Propósito do projeto
+
+Este repositório serve como um ponto de partida para quem quer:
+
+Aprender ou revisar os fundamentos de backend com Java + Spring Boot + JPA
+
+Entender como estruturar uma API REST de forma organizada e escalável
+
+Ver boas práticas como separação de camadas, persistência com JPA, padrões de projeto, DTOs, controle de erros
+
+Usar como base para projetos maiores com autenticação, segurança, documentação, testes, etc.
 
 
 ## 🦸 Autor
